@@ -1,0 +1,29 @@
+.each-msg-div {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.message {
+    background-color: brown;
+    border-radius: 20px;
+    max-width: 70%;
+    width: auto;
+    color: aliceblue;
+    padding: 16px;
+}
+
+.filler {
+    width: auto;
+}
+
+.message.bot {
+    border-radius: 20px 20px 20px 0;
+    flex-direction: row;
+    background-color: #AF7AC5;
+}
+
+.message.user {
+    border-radius: 20px 20px 0 20px;
+    flex-direction: row;
+    background-color: #85C1E9;
+}

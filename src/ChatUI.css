@@ -1,0 +1,33 @@
+.msg-area {
+    height: 85%;
+}
+.msg-box {
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.msg-box div {
+    background-color: #2C3E50;
+    color: #fff;
+    padding: 8px 20px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid #2C3E50;
+
+    &:hover {
+        background-color: #fff;
+        color: #2C3E50;
+        border: 2px solid #2C3E50;
+    }
+}
+
+.txtarea {
+    width: 90%;
+    height: 90%;
+    border-radius: 12px;
+    padding: 10px;
+}
